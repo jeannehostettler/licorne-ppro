@@ -1,28 +1,20 @@
 .small-card {
   border-radius: 32px;
-  //   background: #101010;
-  background-color: blue;
+  background: #101010;
   box-shadow: 0px 0px 70.7px 1px rgba(255, 255, 255, 0.19);
-  position: absolute;
-  transition-property: background-color;
-  transition-duration: 0.3s;
-  width: 295px;
+  width: 100%;
   height: 295px;
 }
 
-.small-card:hover {
-  background-color: red;
+.small-card-title {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 17px;
 }
 
 .small-card img {
   position: relative;
-  right: 5px;
   bottom: 50px;
-}
-
-.small-card h3 {
-  font-size: 27px;
-  text-align: center;
 }
 
 .small-card p {
@@ -30,24 +22,47 @@
   font-weight: 900;
   font-style: normal;
   position: relative;
-  bottom: 50px;
-  font-size: 13px;
-}
-
-.small-card-title {
-  margin-top: 21px;
+  bottom: 60px;
 }
 
 .small-card-price {
   display: flex;
   justify-content: space-between;
-  padding: 0 17px 0 17px;
+  padding: 15px;
 }
 
 .small-card-number {
   border: white 4px solid;
   border-radius: 50px;
+  background-color: black;
   padding: 12px;
   position: relative;
   bottom: 90px;
+  left: 30px;
+  font-family: "Abel", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
+  transition-property: background-color color;
+  transition-duration: 0.3s;
+}
+
+.small-card-1 {
+  transition-property: background;
+  transition-duration: 0.3s;
+}
+
+.small-card-1:hover {
+  background: #ffad24;
+  .small-card-number {
+    border: black 4px solid;
+    background-color: white;
+    color: black;
+  }
+}
+
+.small-card-2 img {
+  width: 233px;
+  left: 70px;
+  bottom: 22px;
 }
