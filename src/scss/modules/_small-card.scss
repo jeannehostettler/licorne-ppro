@@ -66,3 +66,87 @@
   left: 70px;
   bottom: 22px;
 }
+
+.small-card-2 p {
+  bottom: 40px;
+}
+
+.small-card-2 .small-card-number {
+  bottom: 70px;
+  transition-property: background-color color;
+  transition-duration: 0.3s;
+}
+
+.small-card-2 {
+  transition-property: background-color;
+  transition-duration: 0.3s;
+}
+
+.small-card-2:hover {
+  background: #ffd140;
+  .small-card-number {
+    background-color: white;
+    color: black;
+    border: black 4px solid;
+  }
+}
+
+.small-card-3 img {
+  width: 233px;
+  left: 70px;
+  bottom: 50px;
+}
+
+.small-card-3 p {
+  bottom: 70px;
+}
+
+.small-card-3 .small-card-number {
+  bottom: 100px;
+  transition-property: background-color color;
+  transition-duration: 0.3s;
+}
+
+.small-card-3 {
+  transition-property: background-color;
+  transition-duration: 0.3s;
+}
+
+.small-card-3:hover {
+  background: #98da43;
+  .small-card-number {
+    background-color: white;
+    color: black;
+    border: black 4px solid;
+  }
+}
+
+.small-card-4 img {
+  width: 233px;
+  left: 70px;
+  bottom: 22px;
+}
+
+.small-card-4 p {
+  bottom: 40px;
+}
+
+.small-card-4 .small-card-number {
+  bottom: 70px;
+  transition-property: background-color color;
+  transition-duration: 0.3s;
+}
+
+.small-card-4 {
+  transition-property: background-color;
+  transition-duration: 0.3s;
+}
+
+.small-card-4:hover {
+  background: #867459;
+  .small-card-number {
+    background-color: white;
+    color: black;
+    border: black 4px solid;
+  }
+}
