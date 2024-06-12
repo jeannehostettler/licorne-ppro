@@ -1,6 +1,10 @@
 .burger {
   position: fixed;
-  top: 20px;
+  top: 15px;
   right: 35px;
   z-index: 1;
+}
+
+.burger i {
+  font-size: 20px;
 }
