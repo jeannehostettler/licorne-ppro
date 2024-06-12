@@ -1,0 +1,24 @@
+.menu {
+  position: fixed;
+  top: 0;
+  right: 15px;
+  margin-top: 55px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+  background: rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+}
+
+.menu li {
+  list-style-type: none;
+}
+
+.menu ul {
+  padding: 18px;
+}
+
+.menu.is-active {
+  opacity: 1;
+  pointer-events: auto;
+}
