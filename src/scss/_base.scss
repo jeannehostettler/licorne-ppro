@@ -17,6 +17,8 @@
 
 html {
   font-size: 16px;
+  background-color: black;
+  color: white;
 }
 
 body {
@@ -66,4 +68,10 @@ nav {
 
 nav a {
   text-decoration: none;
+}
+
+h3 {
+  font-family: gabriella, sans-serif;
+  font-weight: 900;
+  font-style: normal;
 }
