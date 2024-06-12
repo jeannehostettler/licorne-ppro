@@ -1,0 +1,30 @@
+.shop-button button {
+  border-radius: 13px;
+  border: 2px solid #ffd97c;
+  background: #101010;
+  color: white;
+  padding: 10px;
+  font-family: "Abel", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  transition-property: background-color color;
+  transition-duration: 0.3s;
+}
+
+.shop-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 69px;
+}
+
+.shop-button button:hover {
+  background-color: #ffd97c;
+  color: black;
+}
+
+.shop-title h2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 78px;
+}
