@@ -19,6 +19,7 @@ html {
   font-size: 16px;
   background-color: black;
   color: white;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -96,4 +97,17 @@ p {
   font-family: "Abel", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+footer {
+  background: #101010;
+  padding-top: 118px;
+  padding-bottom: 101px;
+}
+
+footer p {
+  color: rgba(255, 255, 255, 0.42);
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
 }
