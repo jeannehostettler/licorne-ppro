@@ -150,3 +150,80 @@
     border: black 4px solid;
   }
 }
+
+.small-card-title-hidden {
+  display: none;
+  font-size: 27px;
+}
+
+.small-card-1:hover .small-card-title-hidden {
+  display: block;
+}
+
+.small-card-1:hover .small-card-price {
+  position: relative;
+  top: 19px;
+}
+
+.small-card-1:hover img {
+  position: relative;
+  bottom: 31px;
+}
+
+.small-card-1:hover .small-card-title-1 {
+  display: none;
+}
+
+.small-card-2:hover .small-card-title-hidden {
+  display: block;
+}
+
+.small-card-2:hover .small-card-title-2 {
+  display: none;
+}
+
+.small-card-2:hover img {
+  position: relative;
+  bottom: 32px;
+}
+
+.small-card-2:hover .small-card-price {
+  position: relative;
+  bottom: 11px;
+}
+
+.small-card-3:hover .small-card-title-hidden {
+  display: block;
+}
+
+.small-card-3:hover .small-card-title-3 {
+  display: none;
+}
+
+.small-card-3:hover img {
+  position: relative;
+  bottom: 70px;
+}
+
+.small-card-3:hover .small-card-price {
+  position: relative;
+  bottom: 20px;
+}
+
+.small-card-4:hover .small-card-title-hidden {
+  display: block;
+}
+
+.small-card-4:hover .small-card-title-4 {
+  display: none;
+}
+
+.small-card-4:hover img {
+  position: relative;
+  bottom: 32px;
+}
+
+.small-card-4:hover .small-card-price {
+  position: relative;
+  bottom: 10px;
+}
