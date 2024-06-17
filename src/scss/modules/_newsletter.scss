@@ -30,6 +30,7 @@
 .newsletter-button {
   display: flex;
   justify-content: center;
+  margin-bottom: 150px;
 }
 
 .newsletter-button button {
@@ -46,7 +47,6 @@
   transition-property: background color;
   transition-duration: 0.3s;
   position: absolute;
-  margin-bottom: 56px;
 }
 
 .newsletter-button button:hover {
