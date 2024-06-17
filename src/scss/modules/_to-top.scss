@@ -1,0 +1,16 @@
+.to-top a {
+  border-radius: 100px;
+  background: white;
+  color: black;
+  padding: 30px 36px;
+  font-size: 54px;
+}
+
+.to-top {
+  display: flex;
+  justify-content: end;
+  position: fixed;
+  right: 3vw;
+  top: 44vw;
+  z-index: 1;
+}
