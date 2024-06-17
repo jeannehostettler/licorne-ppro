@@ -12,7 +12,7 @@
   height: 624px;
   flex-shrink: 0;
   left: 30vw;
-  top: 64vw;
+  top: 73vw;
 
   /* left: 50%;
   /* margin-left: -247px;*/
@@ -59,7 +59,7 @@
 
 .beer-infos {
   position: relative;
-  top: 25vw;
+  top: 28vw;
   right: 20vw;
   font-size: 24px;
 }
@@ -88,4 +88,26 @@
 .beer-card-3 .beer-infos {
   position: relative;
   top: 15vw;
+}
+
+.beer-card button {
+  position: relative;
+  left: 70vw;
+  top: 25vw;
+  padding: 10px 14px;
+  border-radius: 13px;
+  border: 2px solid #ffd97c;
+  background: #101010;
+  color: white;
+  font-family: "Abel", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  transition-property: background color;
+  transition-duration: 0.3s;
+}
+
+.beer-card button:hover {
+  background: #ffd97c;
+  color: black;
 }
