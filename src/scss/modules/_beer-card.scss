@@ -12,25 +12,25 @@
   height: 624px;
   flex-shrink: 0;
   left: 30vw;
-  top: 73vw;
+  top: 86vw;
 
   /* left: 50%;
   /* margin-left: -247px;*/
   /* margin-top: 5%;*/
 }
 
-.beer-card li:nth-child(4) {
-  animation: xfade 16s 0s infinite;
-}
-.beer-card li:nth-child(3) {
-  animation: xfade 16s 4s infinite;
-}
-.beer-card li:nth-child(2) {
-  animation: xfade 16s 8s infinite;
-}
-.beer-card li:nth-child(1) {
-  animation: xfade 16s 12s infinite;
-}
+// .beer-card li:nth-child(4) {
+//   animation: xfade 16s 0s infinite;
+// }
+// .beer-card li:nth-child(3) {
+//   animation: xfade 16s 4s infinite;
+// }
+// .beer-card li:nth-child(2) {
+//   animation: xfade 16s 8s infinite;
+// }
+// .beer-card li:nth-child(1) {
+//   animation: xfade 16s 12s infinite;
+// }
 
 @keyframes xfade {
   17% {
@@ -58,40 +58,43 @@
 }
 
 .beer-infos {
-  position: relative;
-  top: 28vw;
-  right: 20vw;
+  // position: relative;
+  // top: 28vw;
+  // right: 20vw;
   font-size: 24px;
+  position: inherit;
+  top: 15vw;
+  left: -10vw;
 }
 
 .beer-infos p {
   margin-bottom: 20px;
 }
 
-.beer-card-3 {
-  position: relative;
-  top: 7.4vw;
-}
+// .beer-card-3 {
+//   position: relative;
+//   top: 7.4vw;
+// }
 
-.beer-card-3 h3 {
-  position: relative;
-  top: 10vw;
-  right: 20vw;
-  width: 1156px;
-}
+// .beer-card-3 h3 {
+//   position: relative;
+//   top: 10vw;
+//   right: 20vw;
+//   width: 1156px;
+// }
 
-.beer-card-3 img {
-  position: relative;
-  bottom: 9.5vw;
-}
+// .beer-card-3 img {
+//   position: relative;
+//   bottom: 9.5vw;
+// }
 
-.beer-card-3 .beer-infos {
-  position: relative;
-  top: 15vw;
-}
+// .beer-card-3 .beer-infos {
+//   position: relative;
+//   top: 15vw;
+// }
 
 .beer-card button {
-  position: relative;
+  position: inherit;
   left: 70vw;
   top: 25vw;
   padding: 10px 14px;
@@ -110,4 +113,14 @@
 .beer-card button:hover {
   background: #ffd97c;
   color: black;
+}
+
+.beer-card li:nth-child(1) {
+  position: inherit;
+}
+
+li:nth-child(1) img {
+  position: relative;
+  bottom: 20vw;
+  left: 20vw;
 }
