@@ -58,9 +58,6 @@
 }
 
 .beer-card button {
-  position: absolute;
-  left: 70vw;
-  top: 25vw;
   padding: 10px 14px;
   border-radius: 13px;
   border: 2px solid #ffd97c;
@@ -107,6 +104,11 @@
     bottom: 7vw;
     right: 0vw;
   }
+  .beer-card button {
+    position: absolute;
+    left: 75vw;
+    top: 117vw;
+  }
 }
 
 @media (min-width: 1877px) {
@@ -135,5 +137,10 @@
     position: relative;
     right: 10vw;
     bottom: 10vw;
+  }
+  .beer-card button {
+    position: absolute;
+    left: 80vw;
+    top: 93vw;
   }
 }
