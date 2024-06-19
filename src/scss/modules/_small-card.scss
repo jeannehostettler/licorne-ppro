@@ -12,11 +12,6 @@
   padding-top: 17px;
 }
 
-.small-card img {
-  position: relative;
-  bottom: 50px;
-}
-
 .small-card p {
   font-family: gabriella, sans-serif;
   font-weight: 900;
@@ -61,12 +56,6 @@
   }
 }
 
-.small-card-2 img {
-  width: 233px;
-  left: 70px;
-  bottom: 22px;
-}
-
 .small-card-2 p {
   bottom: 40px;
 }
@@ -89,12 +78,6 @@
     color: black;
     border: black 4px solid;
   }
-}
-
-.small-card-3 img {
-  width: 233px;
-  left: 70px;
-  bottom: 50px;
 }
 
 .small-card-3 p {
@@ -160,16 +143,6 @@
   display: block;
 }
 
-.small-card-1:hover .small-card-price {
-  position: relative;
-  top: 19px;
-}
-
-.small-card-1:hover img {
-  position: relative;
-  bottom: 31px;
-}
-
 .small-card-1:hover .small-card-title-1 {
   display: none;
 }
@@ -182,32 +155,12 @@
   display: none;
 }
 
-.small-card-2:hover img {
-  position: relative;
-  bottom: 32px;
-}
-
-.small-card-2:hover .small-card-price {
-  position: relative;
-  bottom: 11px;
-}
-
 .small-card-3:hover .small-card-title-hidden {
   display: block;
 }
 
 .small-card-3:hover .small-card-title-3 {
   display: none;
-}
-
-.small-card-3:hover img {
-  position: relative;
-  bottom: 70px;
-}
-
-.small-card-3:hover .small-card-price {
-  position: relative;
-  bottom: 20px;
 }
 
 .small-card-4:hover .small-card-title-hidden {
@@ -218,12 +171,90 @@
   display: none;
 }
 
+.small-card img {
+  position: relative;
+  bottom: 50px;
+}
+.small-card-2 img {
+  width: 233px;
+  left: 70px;
+  bottom: 22px;
+}
+.small-card-3 img {
+  width: 233px;
+  left: 70px;
+  bottom: 50px;
+}
+.small-card-1:hover .small-card-price {
+  position: relative;
+  top: 19px;
+}
+
+.small-card-1:hover img {
+  position: relative;
+  bottom: 31px;
+}
+
+.small-card-2:hover img {
+  position: relative;
+  bottom: 32.5px;
+}
+
+.small-card-2:hover .small-card-price {
+  position: relative;
+  bottom: 10.5px;
+}
+
 .small-card-4:hover img {
   position: relative;
-  bottom: 32px;
+  bottom: 31.5px;
 }
 
 .small-card-4:hover .small-card-price {
   position: relative;
-  bottom: 10px;
+  bottom: 10.5px;
+}
+
+@media (max-width: 1877px) {
+  .small-card-3:hover img {
+    position: relative;
+    bottom: 70.5px;
+  }
+  .small-card-3:hover .small-card-price {
+    position: relative;
+    bottom: 20.5px;
+  }
+  .small-card-4 img {
+    bottom: 1.4vw;
+  }
+}
+
+@media (min-width: 1877px) {
+  .small-card-1 img {
+    left: 2vw;
+  }
+  .small-card-2 img {
+    left: 6.5vw;
+  }
+  .small-card-3 img {
+    left: 6vw;
+  }
+  .small-card-3:hover img {
+    bottom: 1.6vw;
+  }
+  .small-card-3:hover .small-card-price {
+    position: relative;
+    top: 1vw;
+  }
+  .small-card-4 img {
+    left: 6vw;
+    bottom: 1vw;
+  }
+  .small-card-4:hover img {
+    bottom: 1.53vw;
+  }
+  .small-card-4:hover .small-card-price {
+    position: relative;
+    bottom: 0.55vw;
+  }
 }
