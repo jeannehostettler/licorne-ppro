@@ -79,64 +79,61 @@
   color: black;
 }
 
-@media (min-width: 1877px) {
+@media (max-width: 1877px) {
   .beer-card-3 img {
     position: relative;
-    bottom: 28.7vw;
-    left: 4vw;
+    bottom: 12.5vw;
   }
   .beer-card-3 h3 {
     position: relative;
-    bottom: 14vw;
-    right: 10vw;
+    top: 4vw;
+    right: 18vw;
     width: 1156px;
   }
 
   .beer-card .beer-infos {
     position: relative;
     right: 10vw;
-    bottom: 3vw;
+    top: 20vw;
   }
 
   .beer-card-3 .beer-infos {
     position: relative;
     right: 10vw;
-    bottom: 11vw;
+    top: 13vw;
   }
   .beer-card-1 img {
     position: relative;
-    bottom: 24.3vw;
-    left: 4vw;
+    bottom: 7vw;
+    right: 0vw;
   }
 }
 
-@media (max-width: 1440px) {
+@media (min-width: 1877px) {
   .beer-card-1 img {
     position: relative;
-    bottom: 3vw;
-    right: 1vw;
+    bottom: 24vw;
+    left: 4vw;
   }
-
-  .beer-card .beer-infos {
+  .beer-card-1 .beer-infos {
     position: relative;
-    top: 20vw;
+    bottom: 5vw;
     right: 10vw;
   }
-
-  .beer-card-3 img {
-    position: relative;
-    bottom: 8.7vw;
-    right: 1vw;
-  }
-
-  .beer-card-3 .beer-infos {
-    top: 10vw;
-  }
-
   .beer-card-3 h3 {
     position: relative;
-    right: 20vw;
-    top: 9vw;
+    right: 11vw;
+    bottom: 15vw;
     width: 1156px;
+  }
+  .beer-card-3 img {
+    position: relative;
+    bottom: 28.3vw;
+    left: 4vw;
+  }
+  .beer-card-3 .beer-infos {
+    position: relative;
+    right: 10vw;
+    bottom: 10vw;
   }
 }
