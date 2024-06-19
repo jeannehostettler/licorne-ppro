@@ -114,8 +114,14 @@ video {
   position: absolute;
   top: 0;
   left: 0;
-  min-width: 100%;
+  min-width: 90%;
   min-height: 100%;
   z-index: -100;
   opacity: 0.5;
+}
+
+@media (min-width: 1877px) {
+  video {
+    left: 5vw;
+  }
 }
